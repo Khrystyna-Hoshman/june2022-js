@@ -36,9 +36,13 @@ let b = '100';
 console.log(typeof b);
 let c = true;
 console.log(typeof c);
-console.log(person,age);
-alert(person,age);
-document.write(person,age);
+let p1 = prompt('Введіть прізвище');
+let p2 = prompt('Введіть імя');
+let p3 = prompt('Введіть по-батькові');
+let p4 = prompt('Введіть вік');
+let sent = p1 + ' '+ p2 +' '+ p3 +' '+ p4;
+console.log(sent);
+
 
 
 
