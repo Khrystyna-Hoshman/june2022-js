@@ -21,9 +21,11 @@
             const userDetailsLink = document.createElement('a');
             userDetailsLink.innerHTML = 'Go to details'
             userDetailsLink.href = `user-details.html?id=${user.id}`;
+            userDetailsLinkDiv.className = 'bottom_go_to_details';
 
             userDetailsLinkDiv.appendChild(userDetailsLink);
             userCardDiv.appendChild(userDetailsLinkDiv);
+            console.log(userDetailsLinkDiv);
 
             usersCardContainer.appendChild(userCardDiv);
       }
